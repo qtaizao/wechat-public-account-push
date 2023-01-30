@@ -28,13 +28,13 @@ const USER_CONFIG = {
       horoscopeDate: '05-30',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-       // {
-          type: '*生日', name: '宝贝', year: '2000', date: '05-30',
-        },
+//         {
+//           type: '*生日', name: '宝贝', year: '2000', date: '05-30',
+//         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        //{
-          type: '生日', name: '宝贝', year: '2000', date: '04-27',
-        },
+//         {
+//           type: '生日', name: '宝贝', year: '2000', date: '04-27',
+//         },
         {
           type: '节日', name: '认识', year: '2022', date: '09-08',
         },
