@@ -19,7 +19,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '',
+//       name: '',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: ['oONpg6asbsqw7oeLwEdppYy1jU5E', 'oONpg6bWmUl-aN03LZsFvetNGhkY'],
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -58,9 +58,9 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '太早',
+      name: '',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oONpg6bWmUl-aN03LZsFvetNGhkY',
+      id: '',
     }
   ],
 
