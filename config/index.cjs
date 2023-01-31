@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '太早',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: ['oONpg6bWmUl-aN03LZsFvetNGhkY'],
+      id: 'oONpg6bWmUl-aN03LZsFvetNGhkY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'KJ39IMn1mJHZigN8nhAJPGLvbf0jcGdYJavWtNwmdHM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -52,10 +52,30 @@ const USER_CONFIG = {
         { keyword: 'anniversary_day', date: '2023-10-29' },
       ],
     },
+    {
+      name: '太早',
+      id: 'oONpg6bWmUl-aN03LZsFvetNGhkY',
+      useTemplateId: 'KJ39IMn1mJHZigN8nhAJPGLvbf0jcGdYJavWtNwmdHM',
+      horoscopeDate: '05-30',
+      festivals: [
+        {
+          type: '*生日', name: '美女宝贝', year: '2000', date: '04-27', 
+        },
+         {
+          type: '*生日', name: '丘 比 龙', year: '2000', date: '08-27', 
+        },
+      ],
+      customizedDateList: [
+        // 初识的日子
+        { keyword: 'acquaintance_day', date: '2022-09-08' },
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-10-29' },
+        // 一周年纪念日
+        { keyword: 'anniversary_day', date: '2023-10-29' },
+      ],
+    },
   ],
 
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'KJ39IMn1mJHZigN8nhAJPGLvbf0jcGdYJavWtNwmdHM',
 
   CALLBACK_USERS: [
